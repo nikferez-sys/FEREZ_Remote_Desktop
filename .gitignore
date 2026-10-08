@@ -56,3 +56,7 @@ vcpkg_installed
 flutter/lib/generated_plugin_registrant.dart
 libsciter.dylib
 flutter/web/
+# FEREZ branding assets must be included in builds.
+!/flutter/assets/logo.png
+!/flutter/assets/icon.png
+!/res/icon.png
