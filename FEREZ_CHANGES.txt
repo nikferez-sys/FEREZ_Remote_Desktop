@@ -1,0 +1,10 @@
+2026-10-08: FEREZ source preview, based on RustDesk 1.4.9.
+Modified: libs/hbb_common/src/config.rs (application name and associated config namespace).
+Modified: flutter/windows/runner/main.cpp (fallback window name).
+Modified: flutter/windows/runner/Runner.rc (product metadata; upstream copyright retained).
+Vendored hbb_common source; removed .gitmodules from this snapshot.
+Replaced automatic upstream workflows with a manual Windows x64-only workflow,
+based on upstream Flutter, bridge and topmost-window build jobs.
+Unsigned preview artifact only; no signing secrets, MSI build or release publication.
+No authentication, authorization, encryption or public server code was modified.
+Workflow has not been executed. Installer and connection behaviour remain unverified.
